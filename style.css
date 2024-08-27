@@ -1,0 +1,112 @@
+
+*{
+    background: #F6DCAC;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 2%;
+
+}
+
+.main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.texto__area{
+    border: none;
+    color: #01204E;
+    margin-top: 30px;
+    text-transform: lowercase;
+    height: 400px;
+}
+::placeholder{ color: #01204E; }
+  .texto__area:focus {
+    outline: none;
+  }
+
+.mensaje__encriptado{
+    background: #f8e7c6;
+    background-image: url(img/ilustracion.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #01204E;
+    margin-left: 98px;
+    margin-top: 30px;
+    padding-left: 20px;
+    /*position: fixed;*/
+    height: 400px;
+}
+
+.mensaje__encriptado:focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+    
+}
+
+.boton__desencriptar {
+    background-color: #FEAE6F;
+    border: 1px solid #01204E;
+    border-radius: 24px;
+    color:#01204E;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    text-align: center;
+}
+
+.boton__desencriptar:hover {
+    background-color: #f7bc90;  /*cambia de color el ancla cuando te posicionas sobre esta*/
+}
+
+.boton__encriptar {
+    background-color: #01204E;
+    border: 1px solid #01204E;
+    border-radius: 24px;
+    color:#F6DCAC;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    text-align: center;
+}
+
+.boton__encriptar:hover {
+    background-color: #2a569e;  /*cambia de color el ancla cuando te posicionas sobre esta*/
+}
+
+.copiar{
+    border: 1px solid #01204E;
+    border-radius: 24px;
+    color:#01204E;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 133px;
+    position: absolute;
+    width: 328px;
+    text-align: center;
+}
+
+.copiar:hover {
+    background-color: #f1cf8f;  /*cambia de color el ancla cuando te posicionas sobre esta*/
+}
+
+.informacion{
+    color: darkgray;
+    font-size: 18px;
+}
